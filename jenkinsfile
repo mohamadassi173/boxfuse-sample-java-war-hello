@@ -14,11 +14,12 @@ pipeline {
             sh "target/hello-1.0.war"
         }
     }
-    post {
+
+      }   
+          post {
     failure {
     echo 'Failed!'
     }
         }
-      }   
   }
 
