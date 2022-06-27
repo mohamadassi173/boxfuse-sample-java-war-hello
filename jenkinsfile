@@ -11,7 +11,7 @@ pipeline {
     }
     stage("arf") {
         steps {
-            sh "target/hello-1.0.war"
+            sh "sudo target/hello-1.0.war"
         }
     }
 
